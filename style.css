@@ -5,7 +5,7 @@
 
 body {
   background-color: rgb(189, 176, 176);
-  background-image: url();
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -54,8 +54,8 @@ body {
 
 .card:hover {
   position: relative;
-  top: -2px;
-  transition: all 1s ease-in;
+  transition: all 2s ease-in;
+  top: -3px;
 }
 
 .thumbnail {
@@ -74,6 +74,7 @@ article {
 
 article h1 {
   padding-bottom: 5px;
+  font-weight: bold;
 }
 
 article p {
